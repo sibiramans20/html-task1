@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+</head>
+<body>
+    <h2>Create Account</h2>
+<form action ="/create" method ="post">
+<table>
+<tr>
+    <td>
+        <label for=" FirstName">FirstName*</label><br>
+        <input type="text" id ="name" name="name"placeholder="enter your first name" >
+    </td>
+    <td>
+        <label for="lastName">LastName*</label><br>
+        <input type="text" id ="name" name="name"placeholder="enter your Last name" >
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for ="email">Email*</label><br>
+        <input type="email" id="email" name ="email" placeholder="enter your email" ><br><br>
+    </td>
+    <td>
+        <label for ="password">Password*</label><br>
+        <input type="password" id="password" name="password" placeholder="enter your password" ><br><br>
+    </td>
+</tr>
+ <tr>
+        <td colspan="2">
+          <label>Confirm Password *</label><br>
+          <input type="password" placeholder="enter your password again" style="width: 98%;">
+        </td>
+ </tr>
+ <tr>
+    <td>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br>
+    </td>
+    <td>
+        <label>Hobbies</label><br>
+        <input type="checkbox"> Music
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Travel
+        <input type="checkbox"> Movies
+      </td>
+ </tr>
+ <tr>
+    <td>
+      <label>Source of Income</label><br>
+      <select>
+        <option>Employed</option>
+        <option>Self-employed</option>
+        <option>Student</option>
+        <option>Other</option>
+      </select>
+    </td>
+    <td>
+      <label>Income</label><br>
+      <input type="range" min="0" max="50000" value="20000">
+      <span>20K</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label>Upload Profile Picture</label><br>
+      <input type="file">
+    </td>
+    <td>
+      <label>Age</label><br>
+      <input type="number" value="18">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <label>Bio</label><br>
+      <textarea rows="4" cols="60"></textarea>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <br>
+      <input type="submit" value="Create">
+    </td>
+  </tr>
+</table>
+    </form>
+</body>
+</html>
