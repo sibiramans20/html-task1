@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: #2d2d2d;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 12px;
+  padding: 40px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
