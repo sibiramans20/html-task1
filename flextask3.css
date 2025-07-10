@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,.container{
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+.container
+{
+    display: flex;
+}
+
+
+header
+{ 
+    background-color: rgb(230, 24, 58);
+    flex: 2;
+    border-radius: 2em;
+    margin: 30px;
+
+}
+section{
+    flex: 2em;
+    background-color: orange;
+    border-radius: 2em;
+    display: flex;
+
+}
+.one{
+    flex: 2;
+    background-color: pink;
+    border-radius: 2em;
+
+}
